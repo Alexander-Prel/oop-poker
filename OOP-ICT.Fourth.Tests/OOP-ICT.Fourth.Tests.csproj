@@ -20,4 +20,16 @@
       <None Remove="obj\**" />
     </ItemGroup>
 
+
+    <ItemGroup>
+      <ProjectReference Include="..\OOP-ICT.First\OOP-ICT.First.csproj" />
+      <ProjectReference Include="..\OOP-ICT.Fourth\OOP-ICT.Fourth.csproj" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+      <PackageReference Include="xunit" Version="2.7.0" />
+    </ItemGroup>
+
 </Project>
